@@ -9,6 +9,11 @@ void input (){
         cout << "Masukan Jumlah Data Pada Array : ";
         cin >> n;
 
-    
-}
+        if (n <=20){
+            break;
+        }
+        else{
+            cout << "\nArray tidak boleh lebih dari 20\n";
+        }
+    }
 }
