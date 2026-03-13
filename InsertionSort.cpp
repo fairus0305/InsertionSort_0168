@@ -16,4 +16,13 @@ void input (){
             cout << "\nArray tidak boleh lebih dari 20\n";
         }
     }
+    cout << endl;
+    cout << "===============================";
+    cout << "======Masukan Elemen Array=====";
+    cout << "===============================";
+
+    for (int i = 0; i < n; i++ ){
+        cout << "Data Ke-" << (i + 1) << ": ";
+        cin >> arr[i];
+    }
 }
