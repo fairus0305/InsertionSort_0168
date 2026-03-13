@@ -49,3 +49,11 @@ void insertionsort()
         }
     }
 }
+
+void display()
+{
+    cout << endl;
+    cout << "=================";
+    cout << "\nEelement Array" << endl;
+    cout << "=================";
+}
